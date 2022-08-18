@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- レスポンシブ対応 -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <title>PURE-FIT</title>
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+
+
+
+
+  <div id="mouse-stalker" class="mouse-stalker"></div>
+  <progress class="scroll-indicator" max="100" value=""></progress>
+  <header class="header">
+    <img src="./images/logo-img.svg" alt="ロゴ" class="header_logo">
+    <ul class="menu">
+      <!--TOP-->
+      <li class="menu_list link-items">
+        <a class="header_text link-item" href="#Top">TOP</a>
+      </li>
+      <!--Concept-->
+      <li class="menu_list">
+        <a class="header_text" href="#Concept">Concept</a>
+      </li>
+      <!--Point-->
+      <li class="menu_list">
+        <a class="header_text" href="#Point">Point</a>
+      </li>
+      <!--Download-->
+      <li class="menu_list">
+        <a class="header_text" href="#Download">Download</a>
+      </li>
+    </ul>
+    <div class="ham" id="ham">
+      <span class="ham_line ham_line1"></span>
+      <span class="ham_line ham_line2"></span>
+      <span class="ham_line ham_line3"></span>
+    </div>
+    <div class="menu_wrapper" id="menu_wrapper">
+      <div class="menu-re">
+        <ul>
+          <li class="text-center"><a href="#Top">TOP</a></li>
+          <li class="text-center"><a href="#Concept">Concept</a></li>
+          <li class="text-center"><a href="#Point">Point</a></li>
+          <li class="text-center"><a href="#Download">Download</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <section id="Top" class="sec sec1 bg-pic">
+      <div class="text-ver">
+        <p>大切なプレゼント <br /></p>
+        <div class="text-ver2">
+          <p>もう迷わない。<br /></p>
+        </div>
+      </div>
+      <div class="scrolldown4"><span>Scroll</span></div>
+    </section>
+
+    <section id="Concept">
+      <div class="sec sec2 target">
+        <h1 class="back-text">Concept</h1>
+        <h2>1人1人にあった <br />プレゼントを。</h2>
+        <p>
+          あの人はどんな<br />
+          誕生日プレゼントが欲しいのかな、、<br />
+          自分にはセンスがないから、、<br />
+          と、悩むあなたに。<br /><br />
+          思い出に残るプレゼントを<br />
+          簡単に、そして楽しく<br />
+          選べるように<br />
+          サポートします。<br />
+        </p>
+    </section>
+    <section id="Point">
+      <div class="sec sec3 target">
+        <div class="back-text-1">Point1</div>
+        <div class="point-text-1">
+          <h1>みんなのプレゼントを参考に</h1>
+          <p>
+            誰かにもらったり、あげたりした<br />
+            プレゼントを投稿、検索できます。<br />
+            タグもつけることができ、<br />
+            1人1人に合ったプレゼントが<br />
+            見つかります。
+          </p>
+        </div>
+        <div>
+          <img src="./images/app_screen.svg" alt="アプリの画面1" class="picture-sec3" />
+        </div>
+    </section>
+    <section>
+      <div class="sec sec4 target">
+        <div class="back-text-2">Point2</div>
+        <div>
+          <img src="./images/app_screen.svg" alt="アプリの画面1" class="picture-sec4" />
+        </div>
+        <div class="point-text-2">
+          <h1>サクッとあなたの手元に</h1>
+          <p>
+            プレゼントが決まったら、近くの<br />
+            売り場や通販サイトのURLなどを<br />
+            表示してくれます。<br />
+            少ない時間でプレゼントを<br />
+            Getできます。
+          </p>
+        </div>
+    </section>
+    <section>
+      <div class="sec sec5 target">
+        <div class="back-text-3">Point3</div>
+        <div class="point-text-3">
+          <h1>特別な日を忘れない</h1>
+          <p>
+            あなただけの誕生日カレンダーを<br />
+            作成できます。<br />
+            メモを残したり、投稿をもとに<br />
+            データを見返すこともできます。<br />
+          </p>
+        </div>
+        <div>
+          <img src="./images/app_screen.svg" alt="アプリの画面1" class="picture-sec3" />
+        </div>
+    </section>
+    <section id="Download" class="sec sec6 target">
+      <div class="bg-pic-last onpic-info">
+        <h1 class="dow_text">今すぐダウンロード!</h1>
+        <div class="flex-2">
+          <img src="./images/app_store.png" alt="app_storeダウンロード" class="dow-img" />
+          <img src="./images/google_play.png" alt="google_playダウンロード" class="dow-img2" />
+        </div>
+        <div class="flex-2">
+          <img src="./images/twitte.svg" alt="twitterダウンロード" class="dow-img3" />
+          <img src="./images/instagram.svg" alt="instaダウンロード" class="dow-img4" />
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- JS -->
+  <script src="./index.js"></script>
+</body>
+
+</html>
