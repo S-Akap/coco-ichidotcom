@@ -868,7 +868,7 @@ body {
   width: 175px;
   height: 52px;
   margin-top: 3%;
-  margin-left: -7%;
+  margin-left: -20%;
 }
 
 .iphone {
@@ -880,8 +880,16 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
+  width: fit-content;
+  margin-left: 20%;
 }
+.flex-2-1 {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin-left: 17%;
 
+}
 .footer {
   height: 100%;
   padding: 3% 0%;
